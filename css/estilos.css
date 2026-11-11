@@ -1,0 +1,32 @@
+nav {
+    background-color: red !important;
+    color: rgb(0, 238, 255) !important;
+}
+
+body{
+    background-color: azure;
+}
+
+
+p {
+    font-family: "Arial", "Helvetica", sans-serif;
+    color: rgb(11, 88, 78);
+}
+
+img, video, iframe { 
+    max-width: 100%; 
+} 
+
+table { 
+    border-collapse: collapse; 
+}
+
+th, td { 
+    padding: 0.5rem; 
+    border: 1px solid #333; 
+} 
+
+fieldset { 
+    margin-bottom: 1rem; 
+}
+
