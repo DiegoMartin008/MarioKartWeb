@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/Wii.svg">
     <title>Mario Kart Wii</title>
+    <style>
+        figure img{
+            width: 200px;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,27 +34,120 @@
         <img src="img/500px-Mario_Kart_Wii_objetos.png" usemap="#image-map">
 
         <map name="image-map">
-            <area target="" alt="Item Box" title="Item Box" href="" coords="70,68,0,2" shape="rect">
-            <area target="" alt="Plátano" title="Plátano" href="" coords="76,3,142,67" shape="rect">
-            <area target="" alt="Champiñón Rojo" title="Champiñón Rojo" href="" coords="148,5,215,70" shape="rect">
-            <area target="" alt="Caparazón Verde" title="Caparazón Verde" href="" coords="218,2,285,69" shape="rect">
-            <area target="" alt="Caparazón Rojo" title="Caparazón Rojo" href="" coords="289,5,356,71" shape="rect">
-            <area target="" alt="Rayo" title="Rayo" href="" coords="361,6,424,68" shape="rect">
-            <area target="" alt="Bob Omb" title="Bob Omb" href="" coords="432,6" shape="rect">
-            <area target="" alt="Item Box Falsa" title="Item Box Falsa" href="" coords="5,73,72,139" shape="rect">
-            <area target="" alt="Plátano" title="Plátano" href="" coords="77,74,143,140" shape="rect">
-            <area target="" alt="Champiñon" title="Champiñon" href="" coords="145,73,212,139" shape="rect">
-            <area target="" alt="Caparazón Verde" title="Caparazón Verde" href="" coords="216,74,285,140" shape="rect">
-            <area target="" alt="Caparazón Rojo" title="Caparazón Rojo" href="" coords="289,73,352,140" shape="rect">
-            <area target="" alt="Nube Rayo" title="Nube Rayo" href="" coords="362,75,426,140" shape="rect">
-            <area target="" alt="Bill Bala" title="Bill Bala" href="" coords="431,76,497,138" shape="rect">
-            <area target="" alt="POW" title="POW" href="" coords="39,148,107,213" shape="rect">
-            <area target="" alt="Champiñón Reina" title="Champiñón Reina" href="" coords="109,148,176,209" shape="rect">
-            <area target="" alt="Mega Champiñón" title="Mega Champiñón" href="" coords="182,146,248,211" shape="rect">
-            <area target="" alt="Caparazón Azul" title="Caparazón Azul" href="" coords="324,214,256,148" shape="rect">
-            <area target="" alt="Super Estrella" title="Super Estrella" href="" coords="325,145,392,209" shape="rect">
-            <area target="" alt="Blooper" title="Blooper" href="" coords="394,146,461,210" shape="rect">
+            <area alt="Item Box" title="Item Box" href="#itembox" coords="70,68,0,2" shape="rect">
+            <area alt="Plátano" title="Plátano" href="#platano" coords="76,3,142,67" shape="rect">
+            <area alt="Champiñón Rojo" title="Champiñón Rojo" href="#champiñon" coords="148,5,215,70" shape="rect">
+            <area alt="Caparazón Verde" title="Caparazón Verde" href="#capverde" coords="218,2,285,69" shape="rect">
+            <area alt="Caparazón Rojo" title="Caparazón Rojo" href="#caprojo" coords="289,5,356,71" shape="rect">
+            <area alt="Rayo" title="Rayo" href="#rayo" coords="361,6,424,68" shape="rect">
+            <area alt="Bob Omb" title="Bob Omb" href="#bobomb" coords="432,6" shape="rect">
+            <area alt="Item Box Falsa" title="Item Box Falsa" href="#itemboxfalso" coords="5,73,72,139" shape="rect">
+            <area alt="Plátano" title="Plátano" href="#platano" coords="77,74,143,140" shape="rect">
+            <area alt="Champiñon" title="Champiñon" href="#champiñon" coords="145,73,212,139" shape="rect">
+            <area alt="Caparazón Verde" title="Caparazón Verde" href="#capverde" coords="216,74,285,140" shape="rect">
+            <area alt="Caparazón Rojo" title="Caparazón Rojo" href="#caprojo" coords="289,73,352,140" shape="rect">
+            <area alt="Nube Rayo" title="Nube Rayo" href="#nuberayo" coords="362,75,426,140" shape="rect">
+            <area alt="Bill Bala" title="Bill Bala" href="#billbala" coords="431,76,497,138" shape="rect">
+            <area alt="POW" title="POW" href="#pow" coords="39,148,107,213" shape="rect">
+            <area alt="Champiñón Reina" title="Champiñón Reina" href="#champiñonreina" coords="109,148,176,209" shape="rect">
+            <area alt="Mega Champiñón" title="Mega Champiñón" href="#megachampiñon" coords="182,146,248,211" shape="rect">
+            <area alt="Caparazón Azul" title="Caparazón Azul" href="#capazul" coords="324,214,256,148" shape="rect">
+            <area alt="Super Estrella" title="Super Estrella" href="#estrella" coords="325,145,392,209" shape="rect">
+            <area alt="Blooper" title="Blooper" href="#blooper" coords="394,146,461,210" shape="rect">
         </map>
+
+        <figure id="itembox">
+            <h2>ItemBox</h2>
+            <img src="img/1200px-MKW_Item_Box.png" alt="ItemBox" loading="lazy">
+            <audio src="audio/Mario_Kart_Wii_-_Item_Box_-_Sound_Effect.mp3" controls></audio>
+            <figcaption>ItemBox</figcaption>
+        </figure>
+        <figure id="platano">
+            <h2>ItemBox</h2>
+            <img src="img/platano.png" alt="Platano" loading="lazy">
+            <figcaption>Platano</figcaption>
+        </figure>
+        <figure id="champiñon">
+            <h2>Champiñon</h2>
+            <img src="img/MushroomMarioKart8.webp" alt="Champiñon" loading="lazy">
+            <figcaption>Champiñon</figcaption>
+        </figure>
+        <figure id="capverde">
+            <h2>Caparazón Verde</h2>
+            <img src="img/GreenShellMK8.webp" alt="Caparazón Verde" loading="lazy">
+            <audio src="audio/Green Shell sound effects [1wEKifbQC5Y].mp3" controls></audio>
+            <figcaption>Caparazon verde</figcaption>
+        </figure>
+        <figure id="caprojo">
+            <h2>Caparazón Rojo</h2>
+            <img src="img/Red_Shell_-_Mario_Kart_Wii.webp" alt="Caparazón Rojo" loading="lazy">
+            <audio src="audio/Red Shell sound effects [jsQcesODTdk].mp3" controls></audio>
+            <figcaption>Caparazon rojo</figcaption>
+        </figure>
+        <figure id="rayo">
+            <h2></h2>
+            <img src="img/LightningMK7.webp" alt="Rayo" loading="lazy">
+            <audio src="audio/rayo.m4a" controls></audio>
+            <figcaption>Rayo</figcaption>
+        </figure>
+        <figure id="bobomb">
+            <h2>Bob-Omb</h2>
+            <img src="img/Bob-ombMK8.webp" alt="Bob-Omb" loading="lazy">
+            <figcaption>Bob Omb</figcaption>
+        </figure>
+        <figure id="itemboxfalso">
+            <h2>ItemBox Falsa</h2>
+            <img src="img/Fake_Item_Box_-_Mario_Kart_Wii.webp" alt="ItemBox Falso" loading="lazy">
+            <figcaption>ItemBox Falsa</figcaption>
+        </figure>
+        <figure id="nuberayo">
+            <h2>Nube Rayo</h2>
+            <img src="img/Thunder_Cloud_Artwork_-_Mario_Kart_Wii.webp" alt="ItemBox" loading="lazy">
+            <figcaption>Nube Rayo</figcaption>
+        </figure>
+        <figure id="billbala">
+            <h2>Bill Bala</h2>
+            <img src="img/Bill_Bala_MK8.webp" alt="Bill Bala" loading="lazy">
+            <audio src="audio/bulletbill.m4a" controls></audio>
+            <figcaption>Bill Bala</figcaption>
+        </figure>
+        <figure id="pow">
+            <h2>POW</h2>
+            <img src="img/POW_Block_-_Mario_Kart_Wii.webp" alt="POW" loading="lazy">
+            <figcaption>POW</figcaption>
+        </figure>
+        <figure id="champiñonreina">
+            <h2>Champiñon Reina</h2>
+            <img src="img/GoldenMushroomMK7.webp" alt="Champiñon Reina" loading="lazy">
+            <figcaption>Champiñon Reina</figcaption>
+        </figure>
+        <figure id="megachampiñon">
+            <h2>Mega Champiñon</h2>
+            <img src="img/Mega_Mushroom_-_Mario_Kart_Wii.webp" alt="Mega Champiñon" loading="lazy">
+            <audio src="audio/Mega Mushroom Music [vy-crNehAWg].mp3" controls></audio>
+            <figcaption>Mega Champiñon</figcaption>
+        </figure>
+        <figure id="capazul">
+            <h2>Caparazón Azul</h2>
+            <img src="img/SpinyShellMK8.webp" alt="Caparazón Azul" loading="lazy">
+            <audio src="audio/Spiny Blue Shell - Mario Kart Wii Sound Effects [lw91f4Km6jE].mp3" controls></audio>
+            <figcaption>Caparazon Azul</figcaption>
+        </figure>
+        <figure id="estrella">
+            <h2>Estrella</h2>
+            <img src="img/Starman.webp" alt="Estrella" loading="lazy">
+            <figcaption>Estrella</figcaption>
+        </figure>
+        <figure id="blooper">
+            <h2>Blooper</h2>
+            <img src="img/250px-Blooper_MK7.webp" alt="Blooper" loading="lazy">
+            <figcaption>Blooper</figcaption>
+        </figure>
+
+        <section>
+            <h2>Lluvia de objetos modo de juego</h2>
+            <video src="video/lluviaobjetos.mp4" controls poster="img/portadavideo.png"></video>
+        </section>
     </main>
 
     <footer>
