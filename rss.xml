@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rss version="2.0"> 
+    <channel> 
+        <title>Mario Kart Wii</title> 
+        <link>https://github.com/DiegoMartin008/MarioKartWeb</link> 
+        <description>Información util sobre el juego Mario Kart Wii</description> 
+        <language>es</language>  
+        <item> 
+            <title>Comunidad</title> 
+            <link>https://usuario.github.io/nombre-repositorio/comunidad.html</link> 
+            <guid>https://usuario.github.io/nombre-repositorio/comunidad.html</guid> 
+            <pubDate>Tue, 10 Nov 2026 10:00:00 +0100</pubDate> 
+            <description>Obras de la comunidad más importantes</description> 
+        </item> 
+ 
+        <item> 
+            <title>PErsonajes</title> 
+            <link>https://usuario.github.io/nombre-repositorio/personajes.html</link> 
+            <guid>https://usuario.github.io/nombre-repositorio/personajes.html</guid> 
+            <pubDate>Wed, 11 Nov 2026 10:00:00 +0100</pubDate> 
+            <description>Estadísticas de cada personaje de Mario Kart Wii</description> 
+        </item> 
+ 
+        <item> 
+            <title>Objetos</title> 
+            <link>https://usuario.github.io/nombre-repositorio/objetos.html</link> 
+            <guid>https://usuario.github.io/nombre-repositorio/objetos.html</guid> 
+            <pubDate>Wed, 11 Nov 2026 10:00:00 +0100</pubDate> 
+            <description>Imágenes de los objetos del juego con sus respectivos sonidos</description> 
+        </item> 
+    </channel> 
+</rss>
