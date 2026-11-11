@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/Wii.svg">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Mario Kart Wii</title>
 </head>
 <body>
@@ -54,18 +55,15 @@
                         <label for="fecha_nacimiento">Fecha de nacimiento *:</label><br>
                         <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required min="1950-01-01" max="2020-12-31">
                     </p>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Preferencias</legend>
-
+                    
                     <p>
-                        <label for="plataforma">Plataforma de juego habitual:</label><br>
-                        <select id="plataforma" name="plataforma">
-                            <option value="wii">Consola Nintendo Wii original</option>
-                            <option value="wii_u">Consola Wii U</option>
-                            <option value="dolphin" selected>Emulador Dolphin en PC</option>
-                        </select>
+                        <label for="pistascreadas">Número de pistas creadas:</label><br>
+                        <input type="number" id="pistascreadas" name="pistascreadas" value="0" min="0" max="50" step="1">
+                    </p>
+                    
+                    <p>
+                        <label for="nivel_habilidad">Nivel estimado de habilidad:</label><br>
+                        <input type="range" id="nivelhabilidad" name="nivelhabilidad" min="1" max="10" step="1" value="5">
                     </p>
 
                     <p>
@@ -80,19 +78,13 @@
                         <label for="pesopesado">Pesado</label>
                     </p>
 
-                    <p>
-                        <label for="pistascreadas">Número de pistas creadas:</label><br>
-                        <input type="number" id="pistascreadas" name="pistascreadas" value="0" min="0" max="50" step="1">
-                    </p>
 
-                    <p>
-                        <label for="nivel_habilidad">Nivel estimado de habilidad:</label><br>
-                        <input type="range" id="nivelhabilidad" name="nivelhabilidad" min="1" max="10" step="1" value="5">
-                    </p>
+
+
                 </fieldset>
 
                 <fieldset>
-                    <legend>Documentación</legend>
+                    <legend>Archivos</legend>
 
                     <p>
                         <label for="avatar">Subir foto de perfil (PNG o JPG):</label><br>
